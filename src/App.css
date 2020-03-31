@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+  border: solid #505EE4;
+  border-radius: 20px;
+  border-width: 0.1px;
+  box-shadow: 0 0px 2px 1px  #505EE4;
+  background: #FBFCFC;
+  min-height: 620px;
+  max-height: 100%;
+}
+
+.logo {
+  margin-top: 130px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.footerwave {
+  margin-bottom: -10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.AccountLogin {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.btnRound {
+  padding: 15px 30px;
+  padding-right: 10px;
+  background: #505EE4;
+  border: 2px solid #505EE4;
+  color: white;
+  border-radius: 2em;
+  font-weight: bold;
+}
+
+.btnRoundRev {
+  padding: 15px 30px;
+  padding-right: 10px;
+  background: white;
+  border: 2px solid #505EE4;
+  color: #505EE4;
+  border-radius: 2em;
+  font-weight: bold;
+}
+
+.arrow {
+  margin-left: 40px;
+}
+
+.arrow1 {
+  position: relative;
+  left: 80px;
+}
+
+.inCheck {
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 50%;
+  vertical-align: middle;
+  float: left;
+  border: 1px solid #4D5656;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 0px;
+  margin-right: 10px;
+}
+
+.inStyle {
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: none;
+  border-bottom: solid #D5D8DC 0.1px;
+}
+
+.hrdiv {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: #99A3A4; /*text*/
+	margin: 8px 0px;
+}
+.hrdiv::before,
+.hrdiv::after {
+	content: "";
+	flex-grow: 1;
+	background: #E5E8E8;
+	height: 1px;
+	margin: 20px 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footerwave {
+    margin-top: 76px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
